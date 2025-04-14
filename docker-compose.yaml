@@ -2,14 +2,14 @@ version: '3.8'
 
 services:
   app1:
-    build: ./app
+    build: ./demo
     environment:
       - PORT=3000
     expose:
       - "3000"
       
   app2:
-    build: ./app
+    build: ./demo
     environment:
       - PORT=3000
     expose:
