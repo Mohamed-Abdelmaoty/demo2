@@ -7,7 +7,7 @@ app.use(express.json());
 app.use("/" , (req, res) => {
 
 console.log("request" , req.params , req.body);
-  res.send("hello from main")
+  res.send("hello from main teest")
 })
 
 app.listen(port, () => {
